@@ -1,0 +1,20 @@
+{
+    "name": "cryst/search-cep",
+    "description": "Search Cities on Viacep",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+
+
+    "require": {
+        "php":">=7.2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search":"src/"
+        },
+        "psr-4": {
+            "cryst\\search-cep\\":"src/"
+        }
+    }
+}
